@@ -30,9 +30,9 @@ class Particle:
         self.pos += self.vel * delta
         
     def inside(self, other):
-        """"
+        """
             detect if another particle is inside it.
-        """"
+        """
         dist_squared = (self.pos - other.pos).magnitude_squared()
         if dist_squared < (self.radius + other.radius)**2:
             return True
@@ -40,12 +40,12 @@ class Particle:
             return False
     
     def collision(self, other):
-        """"
+        """
             Detects if two particles collide,
             if they do, it gets the new speeds for each one.
 
             The formula used is that of Collision elastic in two dimensions.
-        """"
+        """
         if self.inside(other):
             # avoid division by zero
             dist_squared = max((self.pos - other.pos).magnitude_squared(), 1)
@@ -70,10 +70,10 @@ class Particle:
                 other.pos += -collide_dir.normalize()*intercention
                 
     def display(self, window, offset, mag, mag_vec):
-        """"
+        """
             Get the true position of the particle on the screen,
             if it is inside it, draw it
-        """"
+        """
         real_pos = get_real_pos(self.pos, offset, mag, mag_vec)
         real_radius = self.radius*mag
         if inside_window(window, real_pos, real_radius):
