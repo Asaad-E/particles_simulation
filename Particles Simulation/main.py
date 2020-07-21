@@ -74,7 +74,7 @@ def text(window, font, string, pos, color):
 pygame.font.init()
 window = pygame.display.set_mode(size)
 
-pygame.display.set_caption('Pygame inicio')
+pygame.display.set_caption('Particle Simulation')
 font = pygame.font.SysFont("Cambria", 20)
 clock = pygame.time.Clock()
 
