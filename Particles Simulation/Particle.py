@@ -34,7 +34,7 @@ class Particle:
             detect if another particle is inside it.
         """
         dist_squared = (self.pos - other.pos).magnitude_squared()
-        if dist_squared < (self.radius + other.radius)**2:
+        if 0 < dist_squared < (self.radius + other.radius)**2:
             return True
         else:
             return False

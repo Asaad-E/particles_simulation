@@ -13,7 +13,7 @@ fps = 60
 
 # grid size
 env_w = 2
-env_h = 4
+env_h = 2
 
 select = None
 mouse_force = 800
@@ -22,12 +22,12 @@ preventMouse = [vector2(0, 0)] * 5
 mag = 1
 mag_vec = vector2(0, 0)
 
-delay = 15 # frames
+delay = 5 # frames
 add = True
 add_frame = 0
 
-min_particles = 8
-max_particles = 15
+min_particles = 5
+max_particles = 10
 
 # --------- environments --------- 
 env_size = env_width, env_height = int(width/env_w), int(height/env_h)
