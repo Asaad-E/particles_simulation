@@ -1,4 +1,4 @@
-﻿# Particles symulation
+﻿# Particles simulation
 
 A simple particle collision simulator inside multiple containers in 2D. you can drag, create, zoom and scroll the screens
 
