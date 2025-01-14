@@ -1,6 +1,6 @@
 ﻿# Particle Simulation
 
-<img src="https://github.com/Asaad-E/particles_simulation/blob/master/media/video.gif" width="800" height="600"/>
+<img src="https://github.com/Asaad-E/particles_simulation/blob/master/media/video.gif" width="500" height="375"/>
 
 This is a  2D particle collision simulator that allows you to interact with particles in multiple containers. You can drag existing particles, create new ones, zoom in/out, and scroll through the containers.
 
