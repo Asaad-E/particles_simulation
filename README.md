@@ -1,8 +1,8 @@
 ﻿# Particle Simulation
 
-<img src="https://github.com/Asaad-E/wordle-espanol/blob/main/media/test.gif" width="320" height="320"/>
+<img src="https://github.com/Asaad-E/particles_simulation/blob/master/media/video.gif" width="320" height="320"/>
 
-This is a simple 2D particle collision simulator that allows you to interact with particles in multiple containers. You can drag existing particles, create new ones, zoom in/out, and scroll through the containers.
+This is a  2D particle collision simulator that allows you to interact with particles in multiple containers. You can drag existing particles, create new ones, zoom in/out, and scroll through the containers.
 
 ## Collisions
 
